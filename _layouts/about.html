@@ -37,6 +37,7 @@ layout: headless
             {%  if author.email %}<a class="social-mail-alt" href="mailto:{{ author.email }}" itemprop="email">Mail</a>{% endif %}
 
             {%  if author.twitter %}<a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" class="social-twitter">Twitter</a> {% endif %}
+            {%  if author.instagram %}<a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs" class="social-instagram">Instagram</a> {% endif %}
             {%  if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" class="social-linkedin">LinkedIn</a> {% endif %}
             {%  if author.xing %}<a href="https://www.xing.com/profile/{{ author.xing }}" itemprop="sameAs" class="social-xing">Xing</a> {% endif %}
 
@@ -52,16 +53,16 @@ layout: headless
             {%  if author.pinterest %}<a href="https://www.pinterest.com/{{ author.pinterest }}" itemprop="sameAs" class="social-pinterest">Pinterest</a> {% endif %}
             {%  if author.dribble %}<a href="https://dribbble.com/{{ author.dribble }}" itemprop="sameAs" class="social-dribbble">Dribble</a> {% endif %}
             {%  if author.behance %}<a href="https://www.behance.net/{{ author.behance }}" itemprop="sameAs" class="social-behance">Behance</a> {% endif %}
-    
-        </div>                                   
-    </div>                                       
-</section>                                       
-                                                 
-<main class="content" role="main">               
-    <article class="single-post">                
-                                                 
-        <section class="post-content">           
-            {{content}}                          
+
+        </div>
+    </div>
+</section>
+
+<main class="content" role="main">
+    <article class="single-post">
+
+        <section class="post-content">
+            {{content}}
         </section>
 
     </article>

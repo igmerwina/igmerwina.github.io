@@ -1,9 +1,9 @@
 ---
 layout:    about
 permalink: "/about/"
-author:    jwillmer
-keywords:  about person demo example
-title:     About Jens Willmer
+author:    igmerwina
+keywords:  about igmerwina
+title:     About Made Erwin Aridantha
 menutitle: About
 weight:    90
 excerpt:   This page contains the curriculum vitae (CV) of the author.
@@ -11,21 +11,28 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
 
 ## Profile
 
-Integer sit amet libero non sapien sagittis dapibus. Phasellus gravida quam ac nisl finibus dictum. Pellentesque vel orci et nisi pretium tincidunt nec a diam. Vivamus et leo eu lorem congue pellentesque id sed tortor. Nulla et nibh neque. Sed ut fermentum lectus, id rhoncus erat.
+<figure>
+   <img src="{{ "/media/img/me.jpg" | absolute_url }}" />
+   <figcaption>Sorry if my chlotes is inappropriate</figcaption>
+</figure>
 
+Nama saya Erwin, usia tidak penting, walau sudah banyak waitress manggil Om
+atau Pak dan saya merasa prihatin.
+Saya berasal dari Tabanan namun berdomisili di Lombok.
+Sempat aktif sebagai volunteer di
+[Bina AntarBudaya chapter Malang](https://www.instagram.com/binabudmlg/).
+Tulisan yang saya buat semata-mata hanyalah imajinasi dan halusinasi yang terbang tinggi.
+Saya selalu bahagia dengan [hati](http://padmajaya.com/mengenal-hati/) yang terbuka karena berkat Tuhan
 ---
 
-## Skills
-
-- Praesent ac augue imperdiet, interdum purus id, sollicitudin sem.
-- Sed pellentesque urna a magna suscipit volutpat.
-- Donec ultricies lectus non augue dictum hendrerit ac ac lorem.
-- Integer eget dui eu purus luctus posuere in non metus.
-- Nam ac felis eget tortor blandit gravida non et diam.
-
----
+## Some Experience
+- Leadership, Public Relation
+- Python, C++, Laravel, CodeIgniter
+- Stocks Market
 
 ## Education
+2007 - 2010
+: [SMAN 5 Mataram](http://www.sman-5-mtr.sch.id/), Science Subject
 
-2009 - 2012
-: Mauris vitae velit vel leo suscipit tempus vel vel elit.
+2010 - 2015
+: [Informatics engineering Brawijaya University](http://filkom.ub.ac.id/)

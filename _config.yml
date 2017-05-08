@@ -6,17 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:            Flying Mind
-subtitle:         a Made Erwin Ardianhta's Blog
-description:      This is the jekyllTheme example blog. It only exists to demonstrate how the theme looks and feels.
-keywords:         demo theme example github jekyll features
+title:            Simple Typing
+subtitle:         flying away through the imagination and halucination
+description:      A Made Erwin Ardiantha's blog. Randomly happy all the time, cause of True Source and our heart open
+keywords:         blog own personal writing
 language:         "en" # default language of the blog. Language codes: http://www.w3schools.com/tags/ref_language_codes.asp
 
 baseurl:          "" # the subpath of your site, e.g. /blog
 url:              "" # the base hostname & protocol for your site. Have a look at robots.txt as well!
 permalink:        /blog/:categories/:title
-cover:            /assets/mountain-cover.jpg
-disqus_shortname: "jekylldecent"
+cover:            /assets/lotus_cover.jpg
+disqus_shortname: "igmerwina"
+paginate: 100
 
 # Build settings
 markdown: kramdown
