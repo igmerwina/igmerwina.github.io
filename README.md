@@ -1,5 +1,5 @@
 # Simple Typing
-![Simple Typing](https://github.com/igmerwina/igmerwina.github.io/blob/master/assets/site.png")
+![Simple Typing](https://github.com/igmerwina/igmerwina.github.io/blob/master/assets/site.PNG")
 ---
 #### A Made Erwin Ardiantha's blog
 
