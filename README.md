@@ -1,6 +1,6 @@
 # Simple Typing
+![Simple Typing](https://github.com/igmerwina/igmerwina.github.io/blob/master/assets/site.png")
 ---
-
 #### A Made Erwin Ardiantha's blog
 
 - Flying away through imagination and halucination
@@ -9,4 +9,4 @@
 
 ---
 
-Based on [jekyllDecent] by (https://github.com/jwillmer/jekyllDecent)
+Based on [jekyllDecent](https://github.com/jwillmer/jekyllDecent)
