@@ -6,7 +6,7 @@ category: ITB
 author: igmerwina
 tags: ITB struggle
 ---
-<div class="bg-scroll" style="background-image:http://www2016.itb.ac.id/gallery/files/12/20091222/1261474000.jpg"></div>
+<div class="bg-scroll" style="background-image:'http://www2016.itb.ac.id/gallery/files/12/20091222/1261474000.jpg'; "></div>
 
 
 ![asdasd]({{site.baseurl}}/http://www2016.itb.ac.id/gallery/files/12/20091222/1261474000.jpg)
