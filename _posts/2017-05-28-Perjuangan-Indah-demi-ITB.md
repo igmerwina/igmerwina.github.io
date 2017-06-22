@@ -14,7 +14,7 @@ Saya mengakui jika sejak kecil saya bukanlah seorang _achiever_ yang berambisi m
 Tapi..
 > People change don't they?
 
-Hari berganti bulan, bulan berganti tahun. Bunga-bunga bermekaran disambut canda riang para burung. 
+Saya yakin semua orang pasti bisa berubah, jadi lebih baik tentunya. Bunga layu pun bisa kembali bermekaran dan disambut canda alam riang. 
 
 ### Banyak hal berubah dalam hidup saya. 
 Cara pandang saya melebar ketika saya memberanikan diri untuk mengikuti organisasi Pencinta Alam [SWAMAPALA](https://www.instagram.com/swamapala5/) di SMA, sewaktu kuliah menjadi pengurus dan panitia di [UNIKAHIDHA](http://unikahidha.ub.ac.id/), [LPM DISPLAY](http://display.ub.ac.id/), dan volunteer di [Bina Antarbudaya](http://bina-antarbudaya.or.id/en/home). Semua menarik, tapi kasih sayanglah yang membuat saya banyak berubah.
