@@ -5,3 +5,6 @@ published: false
 
 # Perjuangan yang indah untuk ITB
 Saya mengakui jika sejak kecil saya bukan seorang _achiever_ yang berambisi dunia, mencapai prestasi atau prestise, saya hanyalah seorang _mediocre_, menjalani kehidupan dengan berjalan lurus pada jalur yang sama setiap harinya. Rangking 1? Nope. Keingingan yang terlalu nyeleneh? Nope. Cinta? Itu beda lagi.. Tapi memang ada saat dimana saya mewakili [SDN 1 Dompu](http://sdn1dompu.mysch.id) --SD kita tercinta-- pada ajang Olimpiade Ilmu Sosial tingkat kelas 5 SD, dan ada juga saat saya menginginkan **PS2** dan **Gitar Listrik** secara terlalu, suatu ikatan kebendaan yang buruk. Disamping itu semua, hari berjalan lurus-lurus saja.
+
+Tapi..
+> People change don't they?
