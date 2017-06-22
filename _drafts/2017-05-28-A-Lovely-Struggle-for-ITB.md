@@ -9,6 +9,6 @@ Saya mengakui jika sejak kecil saya bukanlah seorang _achiever_ yang berambisi m
 Tapi..
 > People change don't they?
 
-Hari berganti bulan, bulan berganti tahun. Bunga-bunga bermekaran disambut gelak tawa burung yang riang. 
+Hari berganti bulan, bulan berganti tahun. Bunga-bunga bermekaran disambut canda riang para burung. 
 
 Banyak hal berubah dalam hidup saya. 
