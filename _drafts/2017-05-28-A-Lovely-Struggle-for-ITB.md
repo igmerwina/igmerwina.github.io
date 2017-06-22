@@ -10,4 +10,5 @@ Tapi..
 > People change don't they?
 
 Hari berganti bulan, bulan berganti tahun. Bunga-bunga bermekaran disambut gelak tawa burung yang riang. 
+
 Banyak hal berubah dalam hidup saya.
