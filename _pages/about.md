@@ -1,38 +1,94 @@
 ---
 layout:    about
-permalink: "/about/"
+permalink: "/about"
 author:    igmerwina
 keywords:  about igmerwina
 title:     About Made Erwin Aridantha
 menutitle: About
-weight:    90
+weight:    70
 excerpt:   This page contains the curriculum vitae (CV) of the author.
 ---
 
-## Profile
+{% assign cv = site.data.cv[page.author] %}
 
-<figure>
-   <img src="{{ "/media/img/me.jpg" | absolute_url }}" />
-   <figcaption>Sorry if my chlotes is inappropriate</figcaption>
-</figure>
+<div class="md-card no-border">
+    <p>{{cv.profile}}</p>
+</div>
 
-Nama saya Erwin, usia tidak penting, walau sudah banyak waitress manggil Om
-atau Pak dan saya merasa prihatin.
-Saya berasal dari Tabanan namun berdomisili di Lombok.
-Sempat aktif sebagai volunteer di
-[Bina AntarBudaya chapter Malang](https://www.instagram.com/binabudmlg/).
-Tulisan yang saya buat semata-mata hanyalah imajinasi dan halusinasi yang terbang tinggi.
-Saya selalu bahagia dengan [hati](http://padmajaya.com/mengenal-hati/) yang terbuka karena berkat Tuhan
----
+<div class="md-card shadow">
+    <div class="title icon-stats-bars">
+        <h2>Skills</h2>
+    </div>
+    <div class="content">
+        <ul>
+            {% for skill in cv.skills %}
+            <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 
-## Some Experience
-- Leadership, Public Relation
-- Python, C++, Laravel, CodeIgniter
-- Stocks Market
+<div class="md-card shadow education">
+    <div class="title icon-library">
+        <h2>Education</h2>
+    </div>
+    {% for entry in cv.education %}   
+    <dl>
+        <dt class="time">{{entry.time}}</dt>
+        <dd>
+            <h3>{{entry.location}}</h3>
+            <p>{{entry.description}}</p>
+        </dd>
+    </dl>
+    {% endfor %}
+</div>
 
-## Education
-2007 - 2010
-: [SMAN 5 Mataram](http://www.sman-5-mtr.sch.id/), Science Subject
+<h2 class="employment-heading">Employment History</h2>
 
-2010 - 2015
-: [Informatics engineering Brawijaya University](http://filkom.ub.ac.id/)
+<div class="timeline-container">
+    {% for employment in cv.employment %}
+    <div class="timeline-block">
+        <div class="marker"></div>
+        <div class="time">{{employment.time}}</div>
+        <div class="timeline-content">
+            <div class="time">{{employment.time}}</div>
+            <h3>{{employment.position}}</h3>
+            <span>{{employment.company}} ({{employment.location}})</span>
+            <ul>
+                {% for responsibility in employment.responsibilities %}
+                <li>{{responsibility}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+<h2 class="project-heading">Project History</h2>
+
+{% for project in cv.projects %}
+<div class="md-card shadow project">
+    <div class="meta">
+        <div class="team">{{project.team}}</div>
+        <div class="time">{{project.time}}</div>
+    </div>
+    <div class="content">
+        <h2>{{project.title}}</h2>
+        <ul>
+            {% for responsibility in project.responsibilities %}
+            <li>{{responsibility}}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="footer">
+        <ul>
+            {% assign technologies = project.technologies | split: ',' %}
+            {% for technology in technologies %}
+            <li> {{ technology }}</li>
+            {% endfor %}
+        </ul>
+        <span class="icon-briefcase"></span>
+    </div>
+</div>
+{% endfor %}
